@@ -22,7 +22,7 @@ function Hero() {
 						src={profileImage}
 						alt="Profile image"
 						width={370}
-						className="rounded-full shadow-2xl mr-10"
+						className="rounded-xl shadow-2xl"
 					/>
 				</div>
 				<div className="md:mt-2 md:w-3/5 relative">
