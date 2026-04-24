@@ -1,7 +1,4 @@
 function Contact() {
-  const handleConntactMe = () => {
-    alert("alo");
-  };
   return (
     <section id="contact" className="py-16">
       <div
@@ -28,9 +25,16 @@ function Contact() {
           {/* Email */}
           <div className="flex flex-col gap-1">
             <span className="text-sm text-gray-400">Email</span>
-            <span className="text-lg font-semibold">
+            {/* <span className="text-lg font-semibold">
               daitran.inbox@gmail.com
-            </span>
+            </span> */}
+            <a
+            // "mailto:emailAddress is protocol send email on device local 
+              href="mailto:daitran.inbox@gmail.com"
+              className="text-lg font-semibold hover:text-teal-400"
+            >
+              daitran.inbox@gmail.com
+            </a>
           </div>
 
           <div className="flex flex-col gap-1">
