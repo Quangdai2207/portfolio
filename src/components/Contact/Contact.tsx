@@ -1,8 +1,7 @@
 function Contact() {
-
   const handleConntactMe = () => {
     alert("alo");
-  }
+  };
   return (
     <section id="contact" className="py-16">
       <div
@@ -34,13 +33,15 @@ function Contact() {
             </span>
           </div>
 
-		  <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1">
             <span className="text-sm text-gray-400">Phone</span>
-            <span 
-            onClick={handleConntactMe}
-            className="text-lg font-semibold">
+            <a
+            // "tel:phone" is protocols teletel 
+              href="tel:0819099931"
+              className="text-lg font-semibold hover:text-teal-400"
+            >
               0819099931
-            </span>
+            </a>
           </div>
         </div>
       </div>
