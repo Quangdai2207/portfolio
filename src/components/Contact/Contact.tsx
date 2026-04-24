@@ -1,4 +1,8 @@
 function Contact() {
+
+  const handleConntactMe = () => {
+    alert("alo");
+  }
   return (
     <section id="contact" className="py-16">
       <div
@@ -32,7 +36,9 @@ function Contact() {
 
 		  <div className="flex flex-col gap-1">
             <span className="text-sm text-gray-400">Phone</span>
-            <span className="text-lg font-semibold">
+            <span 
+            onClick={handleConntactMe}
+            className="text-lg font-semibold">
               0819099931
             </span>
           </div>
