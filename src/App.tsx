@@ -6,15 +6,15 @@ import HomePage from "./pages/home";
 import "./styles/App.scss";
 
 function App() {
-	return (
-		<>
-			<ToastContainer />
-			<Cursor />
-			<Routes>
-				<Route path="/" element={<HomePage />} />
-			</Routes>
-		</>
-	);
+  return (
+    <>
+      <ToastContainer />
+      <Cursor />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;

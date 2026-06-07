@@ -9,6 +9,7 @@ const navLinks = [
 	{ title: "Projects", link: "projects", id: 2 },
 	{ title: "Favorite Sports", link: "sports", id: 3 },
 	{ title: "Contact", link: "contact", id: 4 },
+	{ title: "My CV", link: "https://itviec.com/xem-truoc-cv", id: 5 },
 ];
 
 const Navbar = () => {
@@ -58,6 +59,15 @@ const Navbar = () => {
 				>
 					<ul className="md:flex md:space-x-6 md:space-y-0 pb-4 md:pb-0">
 						{navLinks.map((item) => {
+							if (item.title === "My CV") {
+								return (
+									<li key={item.id}>
+										<a href={item.link}>
+											{item.title}
+										</a>
+									</li>
+								)
+							}
 							return (
 								<li key={item.id}>
 									<ScrollLink
