@@ -18,7 +18,6 @@ export const mySkills: Skill[] = [
 			"OOP",
 			"Java",
 			"Spring Framework",
-			"NextJS Framework",
 			"RESTful APIs",
 			"OAuth",
 			"MySQL"
@@ -43,11 +42,9 @@ export const mySkills: Skill[] = [
 		alt: "General skills icon",
 		skills: [
 			"Bash Shell",
-			"Git",
-			"GitHub",
+			"Git & Github",
 			"NextJs",
 			".Net",
-			"Network Protocols",
 			"Docker",
 			"Linux",
 			"Workflows CI/CD",
