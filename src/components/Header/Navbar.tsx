@@ -9,7 +9,7 @@ const navLinks = [
 	{ title: "Projects", link: "projects", id: 2 },
 	{ title: "Favorite Sports", link: "sports", id: 3 },
 	{ title: "Contact", link: "contact", id: 4 },
-	{ title: "My CV", link: "https://itviec.com/xem-truoc-cv", id: 5 },
+	{ title: "My CV", link: "https://mail.google.com/mail/u/0/#search/tongvu%40gss-sol.com/QgrcJHrntPzQgpnVxNvGRFDvNmkVkBjhmNB?projector=1&messagePartId=0.1", id: 5 },
 ];
 
 const Navbar = () => {
