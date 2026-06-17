@@ -17,7 +17,8 @@ export const mySkills: Skill[] = [
 		skills: [
 			"OOP",
 			"Java",
-			"Java Spring",
+			"Spring Framework",
+			"NextJS Framework",
 			"RESTful APIs",
 			"OAuth",
 			"MySQL"
@@ -47,6 +48,11 @@ export const mySkills: Skill[] = [
 			"NextJs",
 			".Net",
 			"Network Protocols",
+			"Docker",
+			"Linux",
+			"Workflows CI/CD",
+			"Networking",
+			"Distributed System"
 		],
 	},
 ];
