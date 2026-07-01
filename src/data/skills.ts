@@ -49,7 +49,8 @@ export const mySkills: Skill[] = [
 			"Linux",
 			"Workflows CI/CD",
 			"Networking",
-			"Distributed System"
+			"Distributed System",
+			"Design & Build Libraty SPA"
 		],
 	},
 ];
